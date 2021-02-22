@@ -9,7 +9,7 @@ function obtenerMayor(x, y) {
     return x;
   }
     else {
-      return y; 
+    return y; 
    }
 }
 
@@ -56,6 +56,17 @@ function saludo(idioma) {
     }
     else return ("Hola!")
 }
+// Se puede usar switch(idioma) {
+//case "aleman":
+// return "Guten Tag!";
+//case "mandarin":
+// return "Ni Hao!";
+//case "inglés":
+// return "Hello!";
+//default: 
+// return "Hola";
+//}
+
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
